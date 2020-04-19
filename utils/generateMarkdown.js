@@ -24,9 +24,42 @@ This project is licensed under the ${license} license.`
 // Development will happen in generate markdown
 function generateMarkdown(data) {
   return `
-# ${data.title}
+# ${data.title}: 
 
+## Table of Contents:
+[Badges](#Badges)   
+[Description](#Description)  
+[Instal](#Installation)  
+[Usage](#Usage)  
+[Contributions](#Contributions)  
+[Tests](#Tests)  
+[License](#License)
+[Email](#Profile)
+
+## Project Description:
+${data.description}
+
+## Module Installation:
+${data.install}
+
+## Command Line Usage:
+${data.usage}
+
+## Contribution to Project: 
+${data.contribution}
+
+## Tests:
+${data.tests}
+
+
+## Dev Profile:
+Username: ${data.username}
+Email: ${data.email}
 `;
 }
+
+
+
+
 
 module.exports = generateMarkdown;
