@@ -56,23 +56,36 @@ const questions = [{
         choices: ['MIT', 'Apache', 'GPL']
     },
 ];
-
-function writeToFile(input) {
-    fs.writeFile("README.md", input, function (err) {
-        if (err) {
-            throw err;
-        }
-    });
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 function init() {
-    inquirer.prompt(questions)
-        .then(function (data) {
-            api.getUser(data.username)
-                .then(function (input) {
-                    writeToFile(generateMarkdown(data, input))
-                });
-        });
+    inquirer.prompt(questions).then((inquirerResponses) => {
+        
+        api
+            .getUser(inquirerResponses.github)
+            .then(({ data }) => {
+                writeToFile("README.md", generateMarkdown({ ...inquirerResponses, ...data}));
+            })
+    })
 }
+// function writeToFile(input) {
+//     fs.writeFile("README.md", input, function (err) {
+//         if (err) {
+//             throw err;
+//         }
+//     });
+// }
+
+// function init() {
+//     inquirer.prompt(questions)
+//         .then(function (data) {
+//             api.getUser(data.username)
+//                 .then(function (input) {
+//                     writeToFile(generateMarkdown(data, input))
+//                 });
+//         });
+// }
 
 init();
