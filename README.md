@@ -11,27 +11,28 @@
   7. [Profile](#Email)
 
 ## Project Description:
-as
+asdf
 
 # License Badge and Description
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DFuenning/readme_generator)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/@DFuenning/readme_generator)
 This project is licensed under the MIT license.
 
 ## Module Installation:
-as
+asdf
 
 ## Command Line Usage:
-as
+asdf
 
 ## Contribution to Project: 
-dsf
+asdf
 
 ## Tests:
-fds
+asdf
 
 
 ## Dev Profile:
-Username: DFuenning
+Username: @DFuenning
 Email: null
 Profile Picture: <img src="https://avatars3.githubusercontent.com/u/11791361?v=4">
+
 
