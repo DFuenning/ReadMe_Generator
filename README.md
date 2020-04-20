@@ -11,28 +11,27 @@
   7. [Profile](#Email)
 
 ## Project Description:
-asdfasfs
+asdf
 
 # License Badge and Description
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DFuenning/read-me)
 This project is licensed under the MIT license.
 
 ## Module Installation:
-asfas
+asdf
 
 ## Command Line Usage:
 asdf
 
 ## Contribution to Project: 
-asdfd
+asdf
 
 ## Tests:
-asdfd
+asdf
 
 
 ## Dev Profile:
 Username: DFuenning
 Email: DFuenning@gmail.com
-Profile Picture: undefined
-
+Profile Picture: <img src="undefined">
 

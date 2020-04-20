@@ -56,8 +56,7 @@ ${data.tests}
 ## Dev Profile:
 Username: ${data.username}
 Email: ${data.email}
-Profile Picture: ${data.avatar_url}
-
+Profile Picture: <img src="${data.avatar_url}">
 
 `;
 }
