@@ -13,9 +13,7 @@ function renderLicenseBadge(license, github, title) {
 function renderLicenseSection(license) {
   if (license !== "None") {
     return (
-      `## License
-
-This project is licensed under the ${license} license.`
+      `This project is licensed under the ${license} license.`
     )
   }
   return ''
@@ -27,17 +25,20 @@ function generateMarkdown(data) {
 # ${data.title}: 
 
 ## Table of Contents:
-[Badges](#Badges)   
-[Description](#Description)  
-[Instal](#Installation)  
-[Usage](#Usage)  
-[Contributions](#Contributions)  
-[Tests](#Tests)  
-[License](#License)
-[Email](#Profile)
+  1. [Badges](#Badges)   
+  2. [Description](#Description)  
+  3. [Instal](#Installation)  
+  4. [Usage](#Usage)  
+  5. [Contributions](#Contributions)  
+  6. [Tests](#Tests)  
+  7. [Profile](#Email)
 
 ## Project Description:
 ${data.description}
+
+# License Badge and Description
+${renderLicenseBadge(data.license, data.username, data.title)}
+${renderLicenseSection(data.license)}
 
 ## Module Installation:
 ${data.install}
@@ -55,6 +56,9 @@ ${data.tests}
 ## Dev Profile:
 Username: ${data.username}
 Email: ${data.email}
+![Profile Image](${data.avatar_url})
+
+
 `;
 }
 
