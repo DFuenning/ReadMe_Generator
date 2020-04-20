@@ -25,8 +25,8 @@ function generateMarkdown(data) {
 # ${data.title}: 
 
 ## Table of Contents:
-  1. [Badges](#Badges)   
-  2. [Description](#Description)  
+  1. [Description](#Description)    
+  2. [Badges](#Badges) 
   3. [Instal](#Installation)  
   4. [Usage](#Usage)  
   5. [Contributions](#Contributions)  
@@ -56,7 +56,7 @@ ${data.tests}
 ## Dev Profile:
 Username: ${data.username}
 Email: ${data.email}
-![Profile Image](${data.avatar_url})
+Profile Picture: ${data.avatar_url}
 
 
 `;
