@@ -1,5 +1,5 @@
 
-# ReadMe_Generator: 
+# DFuenning Readme Gen: 
 
 ## Table of Contents:
   1. [Description](#Description)    
@@ -13,15 +13,15 @@
 ## Project Description:
 asdf
 
-# License Badge and Description
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/@DFuenning/readme_generator)
+## License Badge and Description
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DFuenning/dfuenning-readme-gen)
 This project is licensed under the MIT license.
 
 ## Module Installation:
 asdf
 
 ## Command Line Usage:
-asdf
+sdf
 
 ## Contribution to Project: 
 asdf
@@ -31,8 +31,7 @@ asdf
 
 
 ## Dev Profile:
-Username: @DFuenning
+Username: DFuenning
 Email: null
-Profile Picture: <img src="https://avatars3.githubusercontent.com/u/11791361?v=4">
-
+https://avatars3.githubusercontent.com/u/11791361?v=4
 

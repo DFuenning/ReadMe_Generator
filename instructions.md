@@ -1,7 +1,8 @@
 # Unit 09 Node.js and ES6+ Homework: Good README Generator
 
 Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
-
+CLIENT_ID="Iv1.63b47bda837ed9c3"
+CLIENT_SECRET="5f604391c8ef7457a4d9941b0230a5fb7d3ea9ab"
 ```sh
 node index.js
 ```

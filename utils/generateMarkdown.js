@@ -36,7 +36,7 @@ function generateMarkdown(data) {
 ## Project Description:
 ${data.description}
 
-# License Badge and Description
+## License Badge and Description
 ${renderLicenseBadge(data.license, data.username, data.title)}
 ${renderLicenseSection(data.license)}
 
@@ -56,7 +56,7 @@ ${data.tests}
 ## Dev Profile:
 Username: ${data.username}
 Email: ${data.email}
-Profile Picture: <img src="${data.avatar_url}">
+${data.avatar_url}
 
 `;
 }
