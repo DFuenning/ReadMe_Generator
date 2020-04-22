@@ -1,5 +1,5 @@
 
-# DFuenning Readme Gen: 
+# Read Me Generator: 
 
 ## Table of Contents:
   1. [Description](#Description)    
@@ -11,27 +11,26 @@
   7. [Profile](#Email)
 
 ## Project Description:
-asdf
+This is a command line application that creates a readme page
 
 ## License Badge and Description
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DFuenning/dfuenning-readme-gen)
-This project is licensed under the MIT license.
+[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/DFuenning/read-me-generator)
+This project is licensed under the Apache license.
 
 ## Module Installation:
-asdf
+npm i
 
 ## Command Line Usage:
-sdf
+Enter the info on these prompts, and it will enter your responses into the READMe and also snag your GitHub profile picture
 
 ## Contribution to Project: 
-asdf
+not sure what that means
 
 ## Tests:
-asdf
+no tests
 
 
 ## Dev Profile:
 Username: DFuenning
-Email: null
-https://avatars3.githubusercontent.com/u/11791361?v=4
-
+Email: DFuenning@gmail.com
+https://avatars1.githubusercontent.com/u/53491138?v=4
