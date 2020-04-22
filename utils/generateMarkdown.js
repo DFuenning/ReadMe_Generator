@@ -55,7 +55,7 @@ ${data.tests}
 
 ## Dev Profile:
 Username: ${data.username}
-Email: ${data.email}
+Email: ${data.gmail}
 ${data.avatar_url}
 
 `;
