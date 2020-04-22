@@ -33,4 +33,4 @@ no tests
 ## Dev Profile:
 Username: DFuenning
 Email: DFuenning@gmail.com
-https://avatars1.githubusercontent.com/u/53491138?v=4
+<img src="https://avatars1.githubusercontent.com/u/53491138?v=4">
