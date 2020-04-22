@@ -47,7 +47,7 @@ const questions = [{
     {
         type: "input",
         message: "Enter your Github Email:",
-        name: "email"
+        name: "gmail"
     },
     {
         type: "list",
@@ -62,30 +62,11 @@ function writeToFile(fileName, data) {
 
 function init() {
     inquirer.prompt(questions).then((inquirerResponses) => {
-        
+        console.log(inquirerResponses);
         api
-            .getUser(inquirerResponses.github)
+            .getUser(inquirerResponses.username)
             .then(({ data }) => {
                 writeToFile("README.md", generateMarkdown({ ...inquirerResponses, ...data}));
             })
     })
 }
-// function writeToFile(input) {
-//     fs.writeFile("README.md", input, function (err) {
-//         if (err) {
-//             throw err;
-//         }
-//     });
-// }
-
-// function init() {
-//     inquirer.prompt(questions)
-//         .then(function (data) {
-//             api.getUser(data.username)
-//                 .then(function (input) {
-//                     writeToFile(generateMarkdown(data, input))
-//                 });
-//         });
-// }
-
-init();
